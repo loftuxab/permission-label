@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,qBAAqB;EACnB,OAAO,EAAC,MAAM;;AAGhB,eAAgB;EACd,SAAS,EAAE,IAAI;EACf,gBAAgB,EAAE,OAAkB;EACpC,aAAa,EAAE,mBAAmB;EAClC,OAAO,EAAE,iBAAiB;EAC1B,WAAW,EAAE,KAAK;;AAOpB,cAAc;EACZ,OAAO,EAAC,MAAM;;AAGhB,aAAa;EACX,OAAO,EAAC,MAAM;;AAGhB,mDAAmD;EACjD,UAAU,EAAE,OAAO;;AAGrB,iBAAiB;EACf,gBAAgB,EAAE,WAAW;EAC7B,KAAK,EAAE,IAAI",
+"sources": ["permission-label.scss"],
+"names": [],
+"file": "permission-label.css"
+}

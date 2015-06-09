@@ -1,0 +1,32 @@
+.permission-container{
+  display:inline;
+}
+
+.permission-tag {
+  font-size: 12px;
+  background-color: rgb(228, 228, 228);
+  border-radius: 10px 10px 10px 10px;
+  padding: 2px 10px 2px 10px;
+  margin-left: -12px;
+}
+
+.permission-tag-collaborator{
+
+}
+
+.inline-detail{
+  display:inline;
+}
+
+.inline-title{
+  display:inline;
+}
+
+.doclist .documents .filename span.document-version{
+  visibility: visible;
+}
+
+.document-version{
+  background-color: transparent;
+  color: grey;
+}

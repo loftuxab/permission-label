@@ -1,0 +1,29 @@
+<!-- Document Library Custom Code config section -->
+<extension>
+    <modules>
+        <module>
+            <id>Permission Label by Lofux AB</id>
+            <version>1.0</version>
+            <auto-deploy>true</auto-deploy>
+            <configurations>
+                <config evaluator="string-compare" condition="DocLibCustom">
+                    <dependencies>
+                        <js src="/components/documentlibrary/permission-label.js" />
+                        <css src="/components/documentlibrary/permission-label.css" />
+                    </dependencies>
+                </config>
+
+                <!-- Document Library config section NOT replace - merged -->
+                <config evaluator="string-compare" condition="DocumentLibrary">
+                    <metadata-templates>
+                        <!-- Default (fallback) -->
+                        <template id="default">
+                            <line index="1" id="permissiontagDisplay">{permissionLevelDisplay}</line>
+                            <line index="999" id="cellRenderCompleteTrigger">{cellRenderCompleteTrigger}</line>
+                        </template>
+                    </metadata-templates>
+                </config>
+            </configurations>
+        </module>
+    </modules>
+</extension>
